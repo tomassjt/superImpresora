@@ -1,0 +1,20 @@
+<div style="text-align:center; margin:10px;">
+  <h4 style="color:#444">Impresora de artículos</h4>
+</div>
+<div style=" position:relative; margin:10px; left:20px;">
+  <form class="example-form">
+    <mat-form-field class="example-full-width" style="width:260px;">
+      <mat-label style="margin-left:5px;">Ingresa un número de artículo</mat-label>
+      <input #articleInput matInput type="number" class="inputNumero" name="numero" [(ngModel)]="numero">
+    </mat-form-field>
+  </form>
+  <button class="iconoImpresora" mat-stroked-button (click)="checkNumero()"> <mat-icon>print</mat-icon> Imprimir</button>
+
+</div>
+<br />
+
+<hr />
+
+<app-principal></app-principal>
+
+

@@ -1,0 +1,24 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Ocultar flechas para Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.example-form input{
+    min-width:400px;
+}
+
+.inputNumero {
+  min-width: 400px;
+}
+.iconoImpresora{
+    color:#333;
+
+}
+.iconoImpresora:hover {
+  color: #4cff00;
+}
